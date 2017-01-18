@@ -1,0 +1,118 @@
+body{
+	  background-color: rgb(115, 168, 87);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: rgb(115, 168, 87);}
+}
+
+.container {
+	margin-top: 40px;
+	z-index: 1;
+	background: white;
+	padding: 2em;
+	border-radius: 8px;
+}
+blockquote {
+	padding: 2em 1.5em 2em 2em;
+	position: relative;
+	color: #999;
+}
+blockquote p {
+	color: #555;
+}
+@media screen and (min-width: 300px) {
+ blockquote {
+ border: 1px solid gray;
+}
+ blockquote:before, blockquote:after {
+ background-color:white;
+ font-size: 3em;
+ font-weight: 800;
+ position: absolute;
+ z-index: 20;
+}
+ blockquote:before {
+ content:url('http://download.easyicon.net/png/534874/32/');
+ width: 34px;
+ height: 31px;
+ left: 2px;
+ top: 2px;
+ -ms-transform: rotate(178deg); /* IE 9 */
+ -webkit-transform: rotate(178deg); /* Chrome, Safari, Opera */
+ transform: rotate(178deg);
+}
+ blockquote:after {
+ content:url('http://download.easyicon.net/png/534874/32/');
+ width: 31px;
+ height: 37px;
+ right: 3px;
+ bottom: 0px;
+}
+}
+blockquote cite {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: -7px;
+}
+blockquote cite:before {
+	content:"\2014 \2009";
+}
+blockquote {
+	padding: 2em 1.5em 2em 2em;
+	position: relative;
+	color: #999;
+}
+blockquote p {
+	color: #555;
+}
+@media screen and (min-width: 300px) {
+ blockquote {
+ border: 1px solid gray;
+}
+ blockquote:before, blockquote:after {
+ background-color:white;
+ font-size: 3em;
+ font-weight: 800;
+ position: absolute;
+ z-index: 20;
+}
+ blockquote:before {
+ content:url('http://download.easyicon.net/png/534874/32/');
+ width: 34px;
+ height: 31px;
+ left: 2px;
+ top: 2px;
+ -ms-transform: rotate(178deg); /* IE 9 */
+ -webkit-transform: rotate(178deg); /* Chrome, Safari, Opera */
+ transform: rotate(178deg);
+}
+ blockquote:after {
+ content:url('http://download.easyicon.net/png/534874/32/');
+ width: 31px;
+ height: 37px;
+ right: 3px;
+ bottom: 0px;
+}
+}
+blockquote cite {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: -7px;
+}
+blockquote cite:before {
+	content:"\2014 \2009";
+}
+.footer{
+	margin-top: 20px;
+	text-align: center;
+}
+cite{
+float: right;
+padding-right: 2%;
+}
